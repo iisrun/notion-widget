@@ -67,11 +67,13 @@
 <body>
     <div class="container">
         <div class="left" id="ceils"></div>
-        /* <div class="right"> */
-        /*     <p id="date"></p>  */
-        /*     <h2 id="percent"></h2>  */
-        /*     <p id="days"></p>  */
-        /* </div>  */
+        <!-- 
+        <div class="right">
+            <p id="date"></p>
+            <h2 id="percent"></h2>
+            <p id="days"></p>
+        </div> 
+        -->
     </div>
 </body>
 <script type="text/javascript">
@@ -122,9 +124,11 @@
         }
         percent = (sum * 100 / year_days).toFixed(1);
         document.getElementById('ceils').innerHTML = _html;
-        /* document.getElementById('date').innerHTML = `${_year}/${cur_month}/${cur_d}`; */
-        /* document.getElementById('percent').innerHTML = `${percent}<em>%</em>`; */
-        /* document.getElementById('days').innerHTML = `${sum}/${year_days}`; */
+        <!-- 
+        document.getElementById('date').innerHTML = `${_year}/${cur_month}/${cur_d}`;
+        document.getElementById('percent').innerHTML = `${percent}<em>%</em>`;
+        document.getElementById('days').innerHTML = `${sum}/${year_days}`;  
+        -->
     }
 </script>
 
